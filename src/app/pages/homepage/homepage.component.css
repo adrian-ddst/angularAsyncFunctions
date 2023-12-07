@@ -1,0 +1,29 @@
+.homepage-container {
+    width: calc(100vw - 16px - 1rem);
+    height: calc(100vh - 81px);
+    border: 2px none #000;
+    border-left-style: solid;
+    font-family: "Arial Narrow", serif;
+    letter-spacing: 1px;
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+
+.homepage-container > p {
+    font-size: 14px;
+}
+
+.homepage-container > .progress-bar {
+    width: 365px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.homepage-container > .progress-bar > .progress-bar-bar {
+    width: 25px;
+    height: 26px;
+    border: 1px solid black;
+    background: #00ff00;
+    margin: 1px 0 1px 1px;
+}

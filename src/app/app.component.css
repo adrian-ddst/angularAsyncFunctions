@@ -1,0 +1,27 @@
+.nav {
+    display: inline-flex;
+    justify-content: flex-start;
+    width: calc(100vw - 16px);
+}
+
+.nav > ul {
+    display: inline-flex;
+    padding-left: 1rem;
+}
+
+.nav > ul > li {
+    margin-right: 1rem;
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+    font-family: "Arial Narrow", serif;
+    letter-spacing: 1px;
+    background: #000;
+    color: #fff;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.nav > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+}

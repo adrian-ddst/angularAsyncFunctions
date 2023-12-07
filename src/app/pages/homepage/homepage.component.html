@@ -1,0 +1,10 @@
+<div class="homepage-container">
+    <h3>This is a demo of async functions</h3>
+    <div class="progress-bar" *ngIf="progressBarVisible">
+        <ng-container *ngFor="let bar of progressBarBars">
+            <div *ngIf="bar" class="progress-bar-bar"></div>
+        </ng-container>
+    </div>
+    <p>{{firstParagraph}}</p>
+    <p>{{secondParagraph}}</p>
+</div>
